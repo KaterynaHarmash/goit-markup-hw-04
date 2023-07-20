@@ -171,24 +171,29 @@ header {
     margin-left: auto;
     column-gap: 50px;
 }
+
 .header .contacts-link {
     display: flex;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .contacts-link {
     font-weight: 500;
     color: var(--primary-text-color);
 }
+
 .contacts .icon {
     margin-right: 10px;
     fill: currentColor;
 }
+
 .icon-email {
     width: 16px;
     height: 12px;
 }
+
 .icon-phone {
     width: 10px;
     height: 16px;
@@ -247,7 +252,7 @@ header {
 }
 
 .bullet-icon {
-    
+
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -313,6 +318,7 @@ header {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .team-text {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -328,10 +334,11 @@ header {
 
 .team-description {
     margin-bottom: 16px;
-    
+
     font-size: 16px;
     letter-spacing: 0.48px;
 }
+
 .social-list .social-link {
     display: block;
     width: 44px;
@@ -340,31 +347,40 @@ header {
 
     border-radius: 50%;
 }
-.social-list .social-link:hover, .social-list .social-link:focus {
+
+.social-list .social-link:hover,
+.social-list .social-link:focus {
     background-color: var(--accent-color);
 }
-.social-list .social-link:hover .icon, .social-list .social-link:focus .icon {
+
+.social-list .social-link:hover .icon,
+.social-list .social-link:focus .icon {
     fill: var(--contrast-text-color);
 }
+
 .social-list .icon {
     width: 20px;
     height: 20px;
     fill: var(--icons-color);
 }
+
 .social-list {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
 }
+
 /* Clients */
 .clients-section .title {
     margin-bottom: 50px;
 }
+
 .clients-list {
     display: flex;
     column-gap: 30px;
 }
+
 .client-link {
     display: block;
     width: 170px;
@@ -374,7 +390,9 @@ header {
     border-radius: 4px;
     border: 1px solid var(--icons-color);
 }
-.client-link:hover, .client-link:focus {
+
+.client-link:hover,
+.client-link:focus {
     border-color: var(--accent-color);
 }
 
@@ -384,6 +402,7 @@ header {
 
     fill: var(--icons-color);
 }
+
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
     fill: var(--accent-color);
@@ -396,6 +415,7 @@ header {
 
     background-color: var(--accent-bg-color);
 }
+
 .footer {
     display: flex;
     column-gap: 70px;
@@ -419,9 +439,11 @@ header {
 .footer-contacts .contacts-item:not(:last-child) {
     margin-bottom: 9px;
 }
+
 .footer .social {
     padding-top: 12px;
 }
+
 .footer .social-title {
     margin-bottom: 20px;
 
@@ -431,12 +453,15 @@ header {
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
+
 .footer-contacts .address {
     color: var(--contrast-text-color);
 }
+
 .footer .icon {
     fill: var(--contrast-text-color);
 }
+
 .footer .social-link {
     background-color: rgba(255, 255, 255, 0.10);
 }
