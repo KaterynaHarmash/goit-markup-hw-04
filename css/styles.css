@@ -254,9 +254,10 @@ header {
 
 .bullet-icon {
 
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
 
     background-color: var(--secondary-bg-color);
@@ -341,10 +342,12 @@ header {
 }
 
 .social-list .social-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
-    padding: 12px;
+
 
     border-radius: 50%;
 }
@@ -383,10 +386,12 @@ header {
 }
 
 .client-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
-    padding: 16px 32px;
+
 
     border-radius: 4px;
     border: 1px solid var(--icons-color);
@@ -419,7 +424,8 @@ header {
 
 .footer {
     display: flex;
-    column-gap: 70px;
+    align-items: baseline;
+    /* column-gap: 70px; */
 }
 
 .logo-footer {
@@ -442,7 +448,7 @@ header {
 }
 
 .footer .social {
-    padding-top: 12px;
+    margin-left: 70px;
 }
 
 .footer .social-title {
